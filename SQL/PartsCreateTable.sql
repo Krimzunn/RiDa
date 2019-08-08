@@ -1,0 +1,10 @@
+CREATE TABLE Parts
+(
+    PartNum
+
+
+
+
+
+
+)

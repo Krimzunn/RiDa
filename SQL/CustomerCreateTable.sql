@@ -1,0 +1,4 @@
+CREATE TABLE Customer
+(
+    CustID INT AUTO INCREMENT 
+)
