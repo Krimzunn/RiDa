@@ -20,7 +20,7 @@ echo "Connected successfully";
 
 // Create table
 $sql="CREATE TABLE Customer(
-CustomerID INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+CustomerID INT(6) AUTO_INCREMENT PRIMARY KEY,
 GivenName VARCHAR(30) NOT NULL,
 Surname VARCHAR(30) NOT NULL)";
 // Execute query
@@ -29,6 +29,9 @@ if (mysqli_query($conn,$sql)) {
 } else {
     echo "Error creating table: " . mysqli_error($con);
 }
+
+
+
 
 ?>
 <html>

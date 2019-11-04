@@ -19,16 +19,20 @@ echo "Connected successfully";
 
 
 // Create table
-$sql="CREATE TABLE Customer(
-CustomerID INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-GivenName VARCHAR(30) NOT NULL,
-Surname VARCHAR(30) NOT NULL)";
+$sql="CREATE TABLE Accounts(
+AccountID INT(6) AUTO_INCREMENT PRIMARY KEY,
+CustomerID Int(6) NOT NULL,
+ProductID Int(6) NOT NULL,
+TotalCost Int(9) NOT NULL)";
 // Execute query
 if (mysqli_query($conn,$sql)) {
     echo "Table persons created successfully";
 } else {
     echo "Error creating table: " . mysqli_error($con);
 }
+
+
+
 
 ?>
 <html>
