@@ -36,7 +36,7 @@ if (mysqli_query($conn,$sql)) {
 ?>
 <html>
 <body>
-<form action="insert.php" method="post">
+<form action="Customers.php" method="post">
 Firstname: <input type="text" name="GivenName">
 Lastname: <input type="text" name="Surname">
 <input type="submit">
