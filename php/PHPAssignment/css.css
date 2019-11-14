@@ -1,5 +1,5 @@
 html {
-    background-image: url("images.jpeg");
+    background-color: #ff0000;
 
 
 }
@@ -20,7 +20,7 @@ nav {
 }
 body {
     margin: auto;
-    background-color: #8580808c;
+    background-color: #4949487e;
     max-width: 975px;
     width: 100%;
     font-size: 14px;
@@ -36,11 +36,7 @@ footer {
     color: white;
     text-align: center;
 }
-.BannerCar {
-    width: 900px;
-    height: auto;
-    padding: 2%;
-}
+
 article {
 padding-left: 40px;
 
@@ -153,3 +149,4 @@ article {
 		width:30%;
 		{
 }
+

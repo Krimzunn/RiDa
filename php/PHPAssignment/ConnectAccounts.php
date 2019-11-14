@@ -19,10 +19,11 @@ echo "Connected successfully";
 
 
 // Create table
-$sql="CREATE TABLE Parts(
-ProductID INT(6) AUTO_INCREMENT PRIMARY KEY,
-Price Int(30) NOT NULL,
-Descriptions VARCHAR(90) NOT NULL)";
+$sql="CREATE TABLE Accounts(
+AccountID INT(6) AUTO_INCREMENT PRIMARY KEY,
+CustomerID Int(6) NOT NULL,
+ProductID Int(6) NOT NULL,
+TotalCost Int(9) NOT NULL)";
 // Execute query
 if (mysqli_query($conn,$sql)) {
     echo "Table persons created successfully";
@@ -36,7 +37,9 @@ if (mysqli_query($conn,$sql)) {
 ?>
 <html>
 <body>
-<form action="Parts.php" method="post">
+
+
+<form action="Accounts.php" method="post">
 Firstname: <input type="text" name="GivenName">
 Lastname: <input type="text" name="Surname">
 <input type="submit">

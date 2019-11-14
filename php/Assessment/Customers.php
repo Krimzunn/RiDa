@@ -10,6 +10,7 @@ $my_db = "Tasks";
 
 <html>
 <head>
+<link rel = "Stylesheet" type = "text/css" href="css.css" />
 <title> php test script - hope this works </title>
 </head>
 <body>
@@ -17,7 +18,7 @@ $my_db = "Tasks";
 <ul>
         <li><a href="ConnectCustomer.php">Customer Form</a> </li>
         <li><a href="Customers.php">Customers</a> </li>
-        <li><a href="Parts.php">Parts</a> </li>
+        <li><a href="Parts.php">Show All Results</a> </li>
         <li><a href="Accounts.php">Accounts</a> </li>
 </ul>
 </nav>

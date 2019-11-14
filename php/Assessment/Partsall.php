@@ -10,6 +10,7 @@ $my_db = "Tasks";
 
 <html>
 <head>
+<link rel = "Stylesheet" type = "text/css" href="css.css" />
 <title> php test script - hope this works </title>
 </head>
 <body>
